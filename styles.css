@@ -1,0 +1,31 @@
+.container{
+    border: yellow;
+    margin-left: 200px;
+    margin-top: 120px;
+ background-color:black;
+ height: 600px;
+ width: 1000px;
+ display: grid;
+ grid-template-rows: repeat(5,1fr);
+ grid-template-columns: repeat(4,1fr);
+ row-gap: 10px;
+ column-gap: 10px;
+}
+.item{
+background-color: aqua;
+}
+.displayBar{
+    font-size: 18px;
+    background-color:orangered;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+
+}
+.bClose{
+    background-color: red;
+    font-size: 60px;
+}
+.itemOperator{
+    font-size: 30px;
+}
